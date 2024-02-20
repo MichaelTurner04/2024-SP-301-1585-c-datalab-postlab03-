@@ -1,1 +1,2 @@
 Michael Turner:
+1. running ls -al * showed me all the files in my current directory along with their size and permisions. running ls -al .* seems to show me the git configs/files in this folder. You shouldn't run rm -rm .* because it will delete all files in the directory, and since linux has no recycling bin like windows, they will immediately be lost forever.
